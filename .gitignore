@@ -1,0 +1,28 @@
+# IDE 설정 파일
+.idea/
+.vscode/
+*.iml
+
+# 빌드 결과물
+/build/
+/out/
+
+# 로그 파일
+*.log
+
+# 환경 설정 파일
+application-*.yml
+!application.yml
+!application-example.yml
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+/tmp/
+*.tmp
+
+# 기타
+/src/main/generated/
+/src/main/resources/data.sql
